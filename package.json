@@ -1,0 +1,35 @@
+{
+  "name": "sadp-project",
+  "version": "0.0.1",
+  "description": "Projeto de web-service para app de TCC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MMN",
+    "Node.js",
+    "Mongo",
+    "Mongoose"
+  ],
+  "author": "Marcelo Santos de Azevedo",
+  "license": "ISC",
+  "dependencies": {
+    "base64-img": "^1.0.3",
+    "body-parser": "^1.14.1",
+    "consign": "^0.1.2",
+    "express": "^4.12.3",
+    "md5": "^2.2.1",
+    "mongoose": "^4.3.1"
+  },
+  "apidoc": {
+    "name": "Documentação SADP-Project",
+    "version": "0.0.1",
+    "description": "Documentação de requisições e respostas JSON",
+    "title": "SADP-Project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/sadp-service.git"
+  }
+}

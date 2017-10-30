@@ -1,0 +1,4 @@
+{
+    "db": "mongodb://localhost/sadp",
+    "env": "DEV"
+}
