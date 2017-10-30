@@ -9,4 +9,4 @@ class TipoUsuario {
     }
 }
 
-module.exports = EnvStatus;
+module.exports = TipoUsuario;

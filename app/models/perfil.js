@@ -38,18 +38,9 @@ const schema = mongoose.Schema({
         default: Date.now,
         required: true
     },
-    dataUltimoAcesso: {
-        type: Date,
-        required: false
-    },
     dataExpiracao: {
         type: Date,
         required: false
-    },
-    alterarSenhaProxAcesso: {
-        type: Boolean,
-        default: false, 
-        required: true
     },
     tipoUsuario: {
         type: String,
@@ -58,11 +49,6 @@ const schema = mongoose.Schema({
     },
     token: {
         type: String,
-        required: false
-    },
-    endereco : {
-        type: Schema.Types.ObjectId,
-        ref: 'Endereco',
         required: false
     },
     telefone: {
